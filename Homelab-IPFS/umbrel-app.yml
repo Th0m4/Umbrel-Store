@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: Homelab-IPFS
+name: IPFS
+tagline: Running IPFS node on your umbrel
+icon: https://docs.ipfs.tech/images/ipfs-logo.svg
+category: Homelab
+version: "1.0.0"
+port: 4001
+description: >-
+  A peer-to-peer hypermedia protocol 
+  designed to preserve and grow humanity's knowledge 
+  by making the web upgradeable, resilient, and more open
+
+developer: IPFS
+website: https://ipfs.tech/
+submitter: Th0m4
+submission: https://github.com/Th0m4/Umbrel-Store
+repo: https://github.com/Th0m4/Umbrel-Store
+support: https://github.com/Th0m4/Umbrel-Store/issues
+gallery:
+  - https://docs.ipfs.tech/assets/img/desktop-status.059adf67.png
+  - https://docs.ipfs.tech/assets/img/desktop-peers.5dc7d58e.png
+  - https://docs.ipfs.tech/assets/img/desktop-files.6da7a680.png
+  - https://docs.ipfs.tech/assets/img/desktop-explore.1f06cc51.png
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
