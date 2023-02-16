@@ -11,7 +11,7 @@ services:
     image: axelander/openbudgeteer
     container_name: openbudgeteer
     ports:
-      - 8089:80
+      - 6100:80
     environment:
       - CONNECTION_SERVER=openbudgeteer-mysql
       - CONNECTION_PORT=3306
@@ -43,7 +43,7 @@ services:
     links:
       - mysql:db
     ports:
-      - 8090:80
+      - 6190:80
     networks:
       - app-global
       - mysql-internal
