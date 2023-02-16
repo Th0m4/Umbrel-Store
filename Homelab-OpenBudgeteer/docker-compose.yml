@@ -1,0 +1,52 @@
+version: "3"
+
+networks:
+  app-global:
+    external: true
+  mysql-internal:
+
+
+services:
+  openbudgeteer:
+    image: axelander/openbudgeteer
+    container_name: openbudgeteer
+    ports:
+      - 8089:80
+    environment:
+      - CONNECTION_SERVER=openbudgeteer-mysql
+      - CONNECTION_PORT=3306
+      - CONNECTION_DATABASE=openbudgeteer
+      - CONNECTION_USER=openbudgeteer
+      - CONNECTION_PASSWORD=openbudgeteer
+      - CONNECTION_MYSQL_ROOT_PASSWORD=myRootPassword
+      - APPSETTINGS_CULTURE=en-US
+      - APPSETTINGS_THEME=solar
+    depends_on:
+      - mysql
+    networks:
+      - app-global
+      - mysql-internal
+
+  mysql:
+    image: mysql
+    container_name: openbudgeteer-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: myRootPassword
+    volumes:
+      - data:/var/lib/mysql
+    networks:
+      - mysql-internal
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: openbudgeteer-phpmyadmin
+    links:
+      - mysql:db
+    ports:
+      - 8090:80
+    networks:
+      - app-global
+      - mysql-internal
+
+volumes:
+  data:
