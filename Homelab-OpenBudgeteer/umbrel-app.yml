@@ -1,30 +1,27 @@
 manifestVersion: 1
 id: Homelab-OpenBudgeteer
+category: HomeLab
 name: Open Budgeteer
-tagline: OpenBudgeteer is a budgeting app based on the Bucket Budgeting Principle
 icon: https://github.com/TheAxelander/OpenBudgeteer/blob/pre-release/assets/icon.png?raw=true
-category: Finance
 version: "1.6.3"
-port: 8089
+tagline: OpenBudgeteer is a budgeting app based on the Bucket Budgeting Principle
 description: >-
   OpenBudgeteer is a budgeting app based on the Bucket Budgeting Principle 
   and inspired by YNAB and Buckets. The Core is based on .NET and the MVVM 
   Pattern, the Front End uses Blazor Server.
-
+releaseNotes: >-
+  Theme news
 developer: TheAxelander
 website: https://github.com/TheAxelander/OpenBudgeteer
-submitter: Th0m4
-submission: https://github.com/Th0m4/Umbrel-Store
+dependencies: []
 repo: https://github.com/Th0m4/Umbrel-Store
-support: https://github.com/Th0m4/Umbrel-Store/issues
+support: https://github.com/Th0m4/Umbrel-Store
+port: 6100
 gallery:
   - https://github.com/TheAxelander/OpenBudgeteer/blob/master/assets/banner.png?raw=true
   - https://github.com/TheAxelander/OpenBudgeteer/blob/pre-release/assets/screenshot1.png?raw=true
   - https://github.com/TheAxelander/OpenBudgeteer/blob/pre-release/assets/screenshot3.png?raw=true
   - https://github.com/TheAxelander/OpenBudgeteer/blob/pre-release/assets/screenshot5.png?raw=true
-releaseNotes: >-
-  Add what's new in the latest version of your app here.
-dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
