@@ -2,7 +2,6 @@ version: "3"
 
 networks:
   app-global:
-    external: true
   mysql-internal:
 
 
@@ -14,10 +13,10 @@ services:
       - 6100:80
     environment:
       - CONNECTION_SERVER=openbudgeteer-mysql
-      - CONNECTION_PORT=6101
+      - CONNECTION_PORT=3306
       - CONNECTION_DATABASE=openbudgeteer
       - CONNECTION_USER=openbudgeteer
-      - CONNECTION_PASSWORD=openbudgeteer
+      - CONNECTION_PASSWORD=openbudgeteerPassword
       - CONNECTION_MYSQL_ROOT_PASSWORD=myRootPassword
       - APPSETTINGS_CULTURE=en-US
       - APPSETTINGS_THEME=solar
