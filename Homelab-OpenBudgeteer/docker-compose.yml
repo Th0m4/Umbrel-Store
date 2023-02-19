@@ -19,7 +19,7 @@ services:
       - CONNECTION_PASSWORD=openbudgeteerPassword
       - CONNECTION_MYSQL_ROOT_PASSWORD=myRootPassword
       - APPSETTINGS_CULTURE=en-US
-      - APPSETTINGS_THEME=solar
+      - APPSETTINGS_THEME=Cyborg
     depends_on:
       - mysql
     networks:
