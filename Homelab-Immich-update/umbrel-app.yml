@@ -5,7 +5,7 @@ tagline: High performance photo and video backup solution
 icon: https://svgur.com/i/mvA.svg
 category: Files
 version: "1.51.1"
-port: 4000
+port: 2285
 description: >-
  An open source and high performance self-hosted backup solution for the videos and photos on your mobile device
   
