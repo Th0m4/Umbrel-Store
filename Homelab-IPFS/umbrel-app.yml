@@ -5,11 +5,9 @@ tagline: Running flaresolverr
 icon: https://raw.githubusercontent.com/FlareSolverr/FlareSolverr/master/resources/flaresolverr_logo.svg
 category: Homelab
 version: "1.0.0"
-port: 4001
+port: 8191
 description: >-
-  A peer-to-peer hypermedia protocol 
-  designed to preserve and grow humanity's knowledge 
-  by making the web upgradeable, resilient, and more open
+  FlareSolverR
 
 developer: FlareSolverR
 website: https://github.com/FlareSolverr/FlareSolverr
@@ -18,12 +16,10 @@ submission: https://github.com/Th0m4/Umbrel-Store
 repo: https://github.com/Th0m4/Umbrel-Store
 support: https://github.com/Th0m4/Umbrel-Store/issues
 gallery:
-  - https://docs.ipfs.tech/assets/img/desktop-status.059adf67.png
-  - https://docs.ipfs.tech/assets/img/desktop-peers.5dc7d58e.png
-  - https://docs.ipfs.tech/assets/img/desktop-files.6da7a680.png
-  - https://docs.ipfs.tech/assets/img/desktop-explore.1f06cc51.png
+  - 
+  - 
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
+  FlareSolverR
 dependencies: []
 path: ""
 defaultUsername: ""
