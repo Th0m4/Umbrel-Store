@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: Homelab-IPFS
-name: IPFS
-tagline: Running IPFS node on your umbrel
+name: FlaresolveRr
+tagline: Running flaresolverr
 icon: https://docs.ipfs.tech/images/ipfs-logo.svg
 category: Homelab
 version: "1.0.0"
@@ -11,8 +11,8 @@ description: >-
   designed to preserve and grow humanity's knowledge 
   by making the web upgradeable, resilient, and more open
 
-developer: IPFS
-website: https://ipfs.tech/
+developer: FlareSolverR
+website: https://github.com/FlareSolverr/FlareSolverr
 submitter: Th0m4
 submission: https://github.com/Th0m4/Umbrel-Store
 repo: https://github.com/Th0m4/Umbrel-Store
