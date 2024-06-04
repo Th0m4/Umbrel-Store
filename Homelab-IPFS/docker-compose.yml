@@ -11,5 +11,5 @@ services:
       - CAPTCHA_SOLVER=${CAPTCHA_SOLVER:-none}
       - TZ=Europe/Paris
     ports:
-      - "4001:8191"
+      - "8191:8191"
     restart: unless-stopped 
