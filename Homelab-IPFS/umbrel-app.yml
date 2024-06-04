@@ -2,7 +2,7 @@ manifestVersion: 1
 id: Homelab-IPFS
 name: FlaresolveRr
 tagline: Running flaresolverr
-icon: https://docs.ipfs.tech/images/ipfs-logo.svg
+icon: https://raw.githubusercontent.com/FlareSolverr/FlareSolverr/master/resources/flaresolverr_logo.svg
 category: Homelab
 version: "1.0.0"
 port: 4001
